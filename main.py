@@ -17,3 +17,8 @@ if __name__== "__main__":
 
     db.print_shard_load()
     db.print_shards()
+
+
+    # Simulated rebalancing logic (mock)
+    print("\n--- REBALANCING (Mock) ---")
+    print("Shard 0 is hot. Suggestion: Rehash keys or add shards.")
